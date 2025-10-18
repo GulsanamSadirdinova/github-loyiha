@@ -1,5 +1,5 @@
 import React from "react";
-import "./Laylor.css";
+import "./Laylo.css";
 
 function Laylo() {
   return (
