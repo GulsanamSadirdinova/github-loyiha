@@ -8,11 +8,14 @@ import Omina from './components/omina/Omina'
 function App() {
  
   return (
-    <div>
+    <div className='g'>
       <Mashhura/>
+      <div>
+
       <Laylo/>
       <Omina/>
       <Mubosher/>
+      </div>
     </div>
   )
 }

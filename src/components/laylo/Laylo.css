@@ -1,0 +1,144 @@
+.dashboard-container {
+  background-color: #fff;
+  min-height: 100vh;
+  padding: 40px 80px;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.header-left h1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 4px;
+  color: #111;
+}
+
+.breadcrumb {
+  color: #aaa;
+  font-size: 14px;
+}
+.breadcrumb span {
+  color: #111;
+  font-weight: 500;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.bell-container {
+  position: relative;
+}
+.bell {
+  font-size: 22px;
+}
+.dot {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+/* PROFILE */
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.profile img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+.profile-info .name {
+  font-weight: 600;
+  font-size: 15px;
+  color: #111;
+}
+.profile-info .role {
+  font-size: 13px;
+  color: #777;
+}
+
+/* KARTALAR */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.card {
+  background-color: #fafafa;
+  border: 1px solid #e5e5e5;
+  border-radius: 15px;
+  padding: 25px;
+  transition: all 0.2s ease;
+}
+.card:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.title {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.card h2 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #111;
+}
+.card h2 span {
+  font-size: 16px;
+  color: #aaa;
+}
+
+.card .progress {
+  color: #007bff;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.eye {
+  font-size: 18px;
+  color: #666;
+}
+
+.card h3 {
+  font-size: 16px;
+  color: #111;
+  line-height: 1.4;
+  font-weight: 500;
+}
+.card h3 .blue {
+  color: #007bff;
+  font-weight: 600;
+}
+
+.link {
+  color: #007bff;
+  font-size: 13px;
+  text-decoration: none;
+  margin-top: 8px;
+  display: inline-block;
+}
+.link:hover {
+  text-decoration: underline;
+}
