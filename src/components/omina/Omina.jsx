@@ -4,13 +4,12 @@ import "./Omina.css";
 const taskData = [
     { name: "Mon", done: 65, target: 35 },
     { name: "Tue", done: 42, target: 60 },
-    { name: "Fri", done: 40, target: 60 },
-    { name: "Sat", done: 42, target: 20 },
-    { name: "Sun", done: 60, target: 30 },
-    { name: "Mon", done: 45, target: 55 },
-    { name: "Tue", done: 44, target: 70 },
     { name: "Wed", done: 45, target: 85 },
-    { name: "Fri", done: 45, target: 60 },
+    { name: "Thu", done: 40, target: 60 },
+    { name: "Fri", done: 42, target: 20 },
+    { name: "Sat", done: 60, target: 30 },
+    { name: "Sun", done: 45, target: 55 },
+    
   ];
 
 function Omina() {
